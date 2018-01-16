@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65407D9F200D9A7700ACC775 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65407D9E200D9A7700ACC775 /* AppDelegate.m */; };
+		65407DA2200D9A7700ACC775 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65407DA1200D9A7700ACC775 /* ViewController.m */; };
+		65407DA5200D9A7700ACC775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65407DA3200D9A7700ACC775 /* Main.storyboard */; };
+		65407DA7200D9A7700ACC775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65407DA6200D9A7700ACC775 /* Assets.xcassets */; };
+		65407DAA200D9A7700ACC775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65407DA8200D9A7700ACC775 /* LaunchScreen.storyboard */; };
+		65407DAD200D9A7700ACC775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65407DAC200D9A7700ACC775 /* main.m */; };
+		65407DB7200D9A7700ACC775 /* TMHAHATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65407DB6200D9A7700ACC775 /* TMHAHATests.m */; };
+		65407DC2200D9A7700ACC775 /* TMHAHAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65407DC1200D9A7700ACC775 /* TMHAHAUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65407DB3200D9A7700ACC775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65407D92200D9A7700ACC775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65407D99200D9A7700ACC775;
+			remoteInfo = TMHAHA;
+		};
+		65407DBE200D9A7700ACC775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65407D92200D9A7700ACC775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65407D99200D9A7700ACC775;
+			remoteInfo = TMHAHA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65407D9A200D9A7700ACC775 /* TMHAHA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMHAHA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65407D9D200D9A7700ACC775 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65407D9E200D9A7700ACC775 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65407DA0200D9A7700ACC775 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65407DA1200D9A7700ACC775 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65407DA4200D9A7700ACC775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65407DA6200D9A7700ACC775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65407DA9200D9A7700ACC775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65407DAB200D9A7700ACC775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65407DAC200D9A7700ACC775 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65407DB2200D9A7700ACC775 /* TMHAHATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMHAHATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65407DB6200D9A7700ACC775 /* TMHAHATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMHAHATests.m; sourceTree = "<group>"; };
+		65407DB8200D9A7700ACC775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65407DBD200D9A7700ACC775 /* TMHAHAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMHAHAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65407DC1200D9A7700ACC775 /* TMHAHAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMHAHAUITests.m; sourceTree = "<group>"; };
+		65407DC3200D9A7700ACC775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65407D97200D9A7700ACC775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65407DAF200D9A7700ACC775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65407DBA200D9A7700ACC775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65407D91200D9A7700ACC775 = {
+			isa = PBXGroup;
+			children = (
+				65407D9C200D9A7700ACC775 /* TMHAHA */,
+				65407DB5200D9A7700ACC775 /* TMHAHATests */,
+				65407DC0200D9A7700ACC775 /* TMHAHAUITests */,
+				65407D9B200D9A7700ACC775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65407D9B200D9A7700ACC775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65407D9A200D9A7700ACC775 /* TMHAHA.app */,
+				65407DB2200D9A7700ACC775 /* TMHAHATests.xctest */,
+				65407DBD200D9A7700ACC775 /* TMHAHAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65407D9C200D9A7700ACC775 /* TMHAHA */ = {
+			isa = PBXGroup;
+			children = (
+				65407D9D200D9A7700ACC775 /* AppDelegate.h */,
+				65407D9E200D9A7700ACC775 /* AppDelegate.m */,
+				65407DA0200D9A7700ACC775 /* ViewController.h */,
+				65407DA1200D9A7700ACC775 /* ViewController.m */,
+				65407DA3200D9A7700ACC775 /* Main.storyboard */,
+				65407DA6200D9A7700ACC775 /* Assets.xcassets */,
+				65407DA8200D9A7700ACC775 /* LaunchScreen.storyboard */,
+				65407DAB200D9A7700ACC775 /* Info.plist */,
+				65407DAC200D9A7700ACC775 /* main.m */,
+			);
+			path = TMHAHA;
+			sourceTree = "<group>";
+		};
+		65407DB5200D9A7700ACC775 /* TMHAHATests */ = {
+			isa = PBXGroup;
+			children = (
+				65407DB6200D9A7700ACC775 /* TMHAHATests.m */,
+				65407DB8200D9A7700ACC775 /* Info.plist */,
+			);
+			path = TMHAHATests;
+			sourceTree = "<group>";
+		};
+		65407DC0200D9A7700ACC775 /* TMHAHAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65407DC1200D9A7700ACC775 /* TMHAHAUITests.m */,
+				65407DC3200D9A7700ACC775 /* Info.plist */,
+			);
+			path = TMHAHAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65407D99200D9A7700ACC775 /* TMHAHA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65407DC6200D9A7700ACC775 /* Build configuration list for PBXNativeTarget "TMHAHA" */;
+			buildPhases = (
+				65407D96200D9A7700ACC775 /* Sources */,
+				65407D97200D9A7700ACC775 /* Frameworks */,
+				65407D98200D9A7700ACC775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMHAHA;
+			productName = TMHAHA;
+			productReference = 65407D9A200D9A7700ACC775 /* TMHAHA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65407DB1200D9A7700ACC775 /* TMHAHATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65407DC9200D9A7700ACC775 /* Build configuration list for PBXNativeTarget "TMHAHATests" */;
+			buildPhases = (
+				65407DAE200D9A7700ACC775 /* Sources */,
+				65407DAF200D9A7700ACC775 /* Frameworks */,
+				65407DB0200D9A7700ACC775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65407DB4200D9A7700ACC775 /* PBXTargetDependency */,
+			);
+			name = TMHAHATests;
+			productName = TMHAHATests;
+			productReference = 65407DB2200D9A7700ACC775 /* TMHAHATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65407DBC200D9A7700ACC775 /* TMHAHAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65407DCC200D9A7700ACC775 /* Build configuration list for PBXNativeTarget "TMHAHAUITests" */;
+			buildPhases = (
+				65407DB9200D9A7700ACC775 /* Sources */,
+				65407DBA200D9A7700ACC775 /* Frameworks */,
+				65407DBB200D9A7700ACC775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65407DBF200D9A7700ACC775 /* PBXTargetDependency */,
+			);
+			name = TMHAHAUITests;
+			productName = TMHAHAUITests;
+			productReference = 65407DBD200D9A7700ACC775 /* TMHAHAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65407D92200D9A7700ACC775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = TeeMo;
+				TargetAttributes = {
+					65407D99200D9A7700ACC775 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					65407DB1200D9A7700ACC775 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65407D99200D9A7700ACC775;
+					};
+					65407DBC200D9A7700ACC775 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65407D99200D9A7700ACC775;
+					};
+				};
+			};
+			buildConfigurationList = 65407D95200D9A7700ACC775 /* Build configuration list for PBXProject "TMHAHA" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65407D91200D9A7700ACC775;
+			productRefGroup = 65407D9B200D9A7700ACC775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65407D99200D9A7700ACC775 /* TMHAHA */,
+				65407DB1200D9A7700ACC775 /* TMHAHATests */,
+				65407DBC200D9A7700ACC775 /* TMHAHAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65407D98200D9A7700ACC775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65407DAA200D9A7700ACC775 /* LaunchScreen.storyboard in Resources */,
+				65407DA7200D9A7700ACC775 /* Assets.xcassets in Resources */,
+				65407DA5200D9A7700ACC775 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65407DB0200D9A7700ACC775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65407DBB200D9A7700ACC775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65407D96200D9A7700ACC775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65407DA2200D9A7700ACC775 /* ViewController.m in Sources */,
+				65407DAD200D9A7700ACC775 /* main.m in Sources */,
+				65407D9F200D9A7700ACC775 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65407DAE200D9A7700ACC775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65407DB7200D9A7700ACC775 /* TMHAHATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65407DB9200D9A7700ACC775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65407DC2200D9A7700ACC775 /* TMHAHAUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65407DB4200D9A7700ACC775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65407D99200D9A7700ACC775 /* TMHAHA */;
+			targetProxy = 65407DB3200D9A7700ACC775 /* PBXContainerItemProxy */;
+		};
+		65407DBF200D9A7700ACC775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65407D99200D9A7700ACC775 /* TMHAHA */;
+			targetProxy = 65407DBE200D9A7700ACC775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65407DA3200D9A7700ACC775 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65407DA4200D9A7700ACC775 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65407DA8200D9A7700ACC775 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65407DA9200D9A7700ACC775 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65407DC4200D9A7700ACC775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65407DC5200D9A7700ACC775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65407DC7200D9A7700ACC775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TMHAHA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.TMHAHA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65407DC8200D9A7700ACC775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TMHAHA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.TMHAHA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65407DCA200D9A7700ACC775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TMHAHATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.TMHAHATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMHAHA.app/TMHAHA";
+			};
+			name = Debug;
+		};
+		65407DCB200D9A7700ACC775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TMHAHATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.TMHAHATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMHAHA.app/TMHAHA";
+			};
+			name = Release;
+		};
+		65407DCD200D9A7700ACC775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TMHAHAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.TMHAHAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TMHAHA;
+			};
+			name = Debug;
+		};
+		65407DCE200D9A7700ACC775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TMHAHAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.TMHAHAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TMHAHA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65407D95200D9A7700ACC775 /* Build configuration list for PBXProject "TMHAHA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65407DC4200D9A7700ACC775 /* Debug */,
+				65407DC5200D9A7700ACC775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65407DC6200D9A7700ACC775 /* Build configuration list for PBXNativeTarget "TMHAHA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65407DC7200D9A7700ACC775 /* Debug */,
+				65407DC8200D9A7700ACC775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65407DC9200D9A7700ACC775 /* Build configuration list for PBXNativeTarget "TMHAHATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65407DCA200D9A7700ACC775 /* Debug */,
+				65407DCB200D9A7700ACC775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65407DCC200D9A7700ACC775 /* Build configuration list for PBXNativeTarget "TMHAHAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65407DCD200D9A7700ACC775 /* Debug */,
+				65407DCE200D9A7700ACC775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65407D92200D9A7700ACC775 /* Project object */;
+}
